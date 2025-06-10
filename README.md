@@ -1,5 +1,9 @@
 ### Connecting to the class code in VC Code
 
+## Create user account in the github
+
+[Signup](https://github.com/)
+
 ## Download Git
 
 [Git](https://git-scm.com/downloads)
@@ -43,12 +47,22 @@ git status
 
 ---
 
-## 4. Initialize a Repository (Local)
+## 4. Fetch Changes from Remote
 
 ```bash
-git init
+git fetch origin
 ```
 
-> This creates a new `.git` folder in your project directory.
+> Downloads changes but does not merge them into your branch.
+
+---
+
+## 5. Pull Changes (Fetch + Merge)
+
+```bash
+git pull origin main
+```
+
+> Pulls and merges updates from the `main` branch.
 
 ---
