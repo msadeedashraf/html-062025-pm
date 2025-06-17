@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Collage</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+    }
+
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .collage img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="collage">
+    <img src="./images/blog_01_large.jpg" width="300", height="200" alt="Image 1">
+    <img src="./images/blog_02_large.jpg"  width="200", height="300" alt="Image 2">
+    <img src="./images/cake_01_large.jpg" width="400", height="300" alt="Image 3">
+    <img src="./images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg" width="300", height="300" alt="Image 4">
+    <img src="./images/brooke-lark-HlNcigvUi4Q-unsplash.jpg" width="250", height="200" alt="Image 5">
+    <img src="./images/lidye-1Shk_PkNkNw-unsplash.jpg" width="350", height="250" alt="Image 6">
+  </div>
+
+</body>
+</html>
