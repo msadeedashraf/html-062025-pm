@@ -1,0 +1,34 @@
+body{
+    background-color: #e4dfda;
+  }
+
+  h1{
+
+    color: #4281a4
+  }
+
+  h2{
+    background-color: #d4b483
+  }
+
+  p{
+    font-style: italic;
+    text-align: right;
+  }
+  table{
+    width: 100%;
+  }
+
+  table, th, td{
+    border: 1px solid;
+    border-radius: 10px;
+  }
+
+  th{
+    background-color: #C1666B;
+  }
+
+
+  tr:nth-child(even){
+    background-color: #cdcdcd
+  }

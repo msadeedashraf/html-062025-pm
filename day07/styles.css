@@ -1,0 +1,33 @@
+
+      body {
+        background-color: rgb(249, 158, 79);
+      }
+      h1 {
+        color: rgb(255, 0, 51);
+      }
+     
+      h2 {
+        background-color: blanchedalmond;
+        color: brown;
+        font-style: italic;
+      }
+      img {
+       border: 5px solid #6c6a6a; 
+       border-radius: 15px;
+        width: 150px;
+        height: 150px;
+      }
+
+      div p {
+        text-align: left;
+      }
+
+      p {
+        text-align: right;
+        color: #6c6a6a;
+      }
+
+      p b {
+        color: rgb(242, 31, 133);
+      }
+   

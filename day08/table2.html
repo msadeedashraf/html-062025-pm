@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables Examples</title>
+    <style>
+      th {
+        border: 1px solid;
+        border-collapse: collapse;
+        background-color: rgb(206, 229, 248);
+      }
+      table,
+      td {
+        border: 1px solid;
+        border-collapse: collapse;
+        background-color: rgb(249, 250, 250);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tables Colspan and Rowspan Examples</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th rowspan="2">ID</th>
+          <th colspan="2">Membership Dates</th>
+
+          <th rowspan="2">Balance</th>
+        </tr>
+
+        <tr>
+          <th>Joined</th>
+          <th>Canceled</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Name 1</th>
+
+          <td>427311</td>
+          <td><time datetime="2010-06-03">June 3, 2010</time></td>
+          <td>n/a</td>
+          <td>0.00</td>
+        </tr>
+        <tr>
+          <th>Name 1</th>
+          <td>427311</td>
+          <td><time datetime="2010-06-03">June 3, 2010</time></td>
+          <td>n/a</td>
+          <td>0.00</td>
+        </tr>
+        <tr>
+          <th>Name 1</th>
+          <td>427311</td>
+          <td><time datetime="2010-06-03">June 3, 2010</time></td>
+          <td>n/a</td>
+          <td>0.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
