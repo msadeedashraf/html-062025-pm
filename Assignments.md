@@ -44,6 +44,7 @@ Create the following Table Layouts
 ### Assignment 7
 
 Create a simple contact us/survey form with all the form tags we did in the class.
+![example](/assets/form/form_layout_01.png)
 
 ### Assignment 8
 
