@@ -41,27 +41,27 @@ Create the following Table Layouts
 3.  Layout 3
 ![Table Layout1](/assets/tables_layout/Layout_3.png)
 
-### Assignment 7
+### Assignment 8
 
 Create a simple contact us/survey form with all the form tags we did in the class.
 ![example](/assets/form/form_layout_01.png)
 
-### Assignment 8
+### Assignment 9
 
 Create a html page with youtube playlist.
 
-### Assignment 9
+### Assignment 10
 
 Create an HTML page that plays audio or music in the background when the page loads?
 
-### Assignment 10
+### Assignment 11
 
 Create an HTML page using internal CSS;
 ![Layout](/assets/css-layout.png)
 
 Create the same page using an external style sheet you may also use any layout you like.
 
-### Assignment 11
+### Assignment 12
 
 Create a layout
 ![Layout 1](/assets/layouts/Invitation.JPG)
