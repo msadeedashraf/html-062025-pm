@@ -1,0 +1,46 @@
+.my-top-heading
+{
+    color: green;
+    text-transform: uppercase;
+}
+.example-class
+{
+    color: aqua;
+    text-align: right;
+}
+
+h1{
+    outline: 2px solid red;
+    padding: 10px;
+}
+
+p{
+    outline: 2px dashed green;
+    padding: 10px;
+}
+ul
+{
+    outline: 2px double grey;
+}
+
+em{
+    outline: 2px solid red;
+}
+
+b{
+    outline: 2px solid red;
+}
+
+.mytotal
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color:red
+}
+.map
+{
+    width: 200px;
+    height: 200px;
+    border:0;
+}
