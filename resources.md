@@ -56,3 +56,20 @@ Useful for responsive designs.
 --Relative to 1% of the viewport's width.
 Also useful for responsive designs.
 --Example: 100vw equals the full width of the viewport.
+
+### Codepen Examples
+
+- Netflix
+[Netflix](https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ)
+
+- Website Design 
+[Website Design](https://codepen.io/Proroz/pen/mdmZvwv)
+
+- CSS responsive grid of hexagons
+[CSS responsive grid of hexagons](https://codepen.io/web-tiki/pen/GRyXMz)
+
+- Pure CSS crossword - CSS Grid
+[Pure CSS crossword - CSS Grid](https://codepen.io/adrianroworth/pen/OpeyZq)
+
+- Nutrition Facts Table in HTML and CSS
+[Nutrition Facts Table in HTML and CSS](https://codepen.io/chriscoyier/pen/ApavyZ)

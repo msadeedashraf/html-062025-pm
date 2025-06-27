@@ -63,23 +63,23 @@ Create the same page using an external style sheet you may also use any layout y
 
 ### Assignment 12
 
-Create a layout
+Create a RSVP layout
 ![Layout 1](/assets/layouts/Invitation.JPG)
 
-Create a layout
+Create a Landing Page layout
 ![Layout 2](/assets/layouts/Landing-Page.JPG)
 
-Create a layout
+Create a Portfolio layout
 ![Layout 3](/assets/layouts/Layout-1.JPG)
 
-Create a layout
+Create a Blog layout
 ![Layout 4](/assets/layouts/Layout-2.JPG)
 
-Create a layout
+Create a Recipe layout
 ![Layout 5](/assets/layouts/Layout-3.JPG)
 
-Create a layout
+Create a Form layout
 ![Layout 6](/assets/layouts/Layout-4.JPG)
 
-Create a layout
+Create a Online Store layout
 ![Layout 7](/assets/layouts/Layout-5.JPG)
