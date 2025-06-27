@@ -25,7 +25,7 @@
 
 ### Colors
 
-[colors]( )
+[colors](https://coolors.co/)
 
 ### Escape Characters **Reference**
 
