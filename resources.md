@@ -6,7 +6,6 @@
 
 [Lorem](https://www.lipsum.com/)
 
-
 ### For images
 
 [Getty Images](https://www.gettyimages.ca/)
