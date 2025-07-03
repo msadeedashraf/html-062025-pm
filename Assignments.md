@@ -83,3 +83,9 @@ Create a Form layout
 
 Create a Online Store layout
 ![Layout 7](/assets/layouts/Layout-5.JPG)
+
+### Assignment 13
+
+- Responsive Portfolio Website From Scratch
+
+[Portfolio](https://www.youtube.com/watch?v=ldwlOzRvYOU&t=609s&ab_channel=HowtoBecomeaDeveloper)
