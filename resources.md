@@ -56,9 +56,9 @@ Useful for responsive designs.
 Also useful for responsive designs.
 --Example: 100vw equals the full width of the viewport.
 
-### Codepen Examples
+# Codepen Examples
 
-# Netflix Project
+### Netflix Project
 
 [Netflix Demo on CodePen](https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ)
 
