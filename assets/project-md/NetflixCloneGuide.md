@@ -308,14 +308,6 @@ You’ve now **built a complete Netflix landing page clone**, step by step, whil
 
 ---
 
-## ✍️ Next: Enhance with interactivity
-
-- Toggle FAQ `+` icons to show/hide answers.
-- Animate fades.
-- Connect to backend or form submit.
-
----
-
 ## 📂 File summary
 
 ```
