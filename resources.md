@@ -61,6 +61,8 @@ Also useful for responsive designs.
 - Netflix
 [Netflix](https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ)
 
+[Step by Step Guide](./assets/project-md/NetflixCloneGuide.md)
+
 - Website Design 
 [Website Design](https://codepen.io/Proroz/pen/mdmZvwv)
 
