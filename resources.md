@@ -58,10 +58,34 @@ Also useful for responsive designs.
 
 ### Codepen Examples
 
-- Netflix
-[Netflix](https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ)
+# Netflix Project
 
-[Step by Step Guide](./assets/project-md/NetflixCloneGuide.md)
+[Netflix Demo on CodePen](https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ)
+
+<details>
+<summary>📚 Click here to view the Step by Step Guide</summary>
+
+[➡️ Open the full guide](./assets/project-md/NetflixCloneGuide.md)
+
+---
+
+## Quick Preview
+
+- Create `index.html` with HTML boilerplate
+- Build Navbar
+- Add Main Hero section
+- Create multiple content containers
+- Insert FAQ and Footer
+- Style each part incrementally in `style.css`
+- Add responsiveness via media queries
+
+✅ See the full detailed steps and CSS snippets in the [Markdown Guide](./assets/project-md/NetflixCloneGuide.md).
+
+</details>
+
+
+
+
 
 - Website Design 
 [Website Design](https://codepen.io/Proroz/pen/mdmZvwv)
