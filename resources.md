@@ -112,14 +112,15 @@ Also useful for responsive designs.
 </details>
 
 
-- Website Design 
-[Website Design](https://codepen.io/Proroz/pen/mdmZvwv)
+### Website Design 
 
-- CSS responsive grid of hexagons
-[CSS responsive grid of hexagons](https://codepen.io/web-tiki/pen/GRyXMz)
+[View Nutrition Facts Demo on CodePen Website Design](https://codepen.io/Proroz/pen/mdmZvwv)
 
-- Pure CSS crossword - CSS Grid
-[Pure CSS crossword - CSS Grid](https://codepen.io/adrianroworth/pen/OpeyZq)
+### CSS responsive grid of hexagons
 
-- Nutrition Facts Table in HTML and CSS
-[Nutrition Facts Table in HTML and CSS](https://codepen.io/chriscoyier/pen/ApavyZ)
+[View CSS responsive grid of hexagons Demo on CodePen](https://codepen.io/web-tiki/pen/GRyXMz)
+
+### Pure CSS crossword - CSS Grid
+
+[View Pure CSS crossword - CSS Grid Demo on CodePen ](https://codepen.io/adrianroworth/pen/OpeyZq)
+
