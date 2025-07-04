@@ -84,7 +84,32 @@ Also useful for responsive designs.
 </details>
 
 
+### Nutrition Facts Project
 
+[View Nutrition Facts Demo on CodePen](https://codepen.io/chriscoyier/pen/ApavyZ) 
+
+<details>
+<summary>📚 Click here to view the Step by Step Guide</summary>
+
+[➡️ Open the full guide](./assets/project-md/NutritionFactsGuide.md)
+
+---
+
+## Quick Preview
+
+- Create `index.html` with HTML boilerplate
+- Insert Nutrition Facts image and main section
+- Add tables for calories, fat, vitamins, and daily values
+- Style incrementally in `style.css`:
+  - Set fonts and image float
+  - Add borders and padding to container
+  - Format the header and main table
+  - Handle small tables and grid layouts
+- Test at each stage to see the label come alive
+
+✅ See all detailed steps and CSS examples in the [Markdown Guide](./assets/project-md/NutritionFactsGuide.md).
+
+</details>
 
 
 - Website Design 
