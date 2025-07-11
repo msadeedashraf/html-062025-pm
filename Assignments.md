@@ -89,3 +89,7 @@ Create a Online Store layout
 - Responsive Portfolio Website From Scratch
 
 [Portfolio](https://www.youtube.com/watch?v=ldwlOzRvYOU&t=609s&ab_channel=HowtoBecomeaDeveloper)
+
+### Assignment 14
+
+- Rewrite the JobZila css code apply DRY (Do not Repeat Yourself) principle. 
