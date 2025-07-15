@@ -11,5 +11,5 @@
     "dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
     "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
     "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5503
 }
