@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">TripZila</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Search</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Login</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Manage Booking</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+ <main class="container my-5">
+
+
+    <div class="text-center mb-5">
+
+        <h1 class="text-primary">Welcome to Tripzila</h1>
+<p>Your gateway to the best stays around the world</p>
+
+    </div>
+
+    <section class="mb-5">
+        <h2 class="text-center text-primary mb-4"> Find Your Perfect Property</h2>
+         <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="search-form" class="bg-white p-4 rounded shadow-sm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="location" class="form-label">Location</label>
+                                <input type="text" class="form-control" id="location" placeholder="Enter city or property name">
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="check-in-date" class="form-label">Check-in Date</label>
+                                <input type="date" class="form-control" id="check-in-date">
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="check-out-date" class="form-label">Check-out Date</label>
+                                <input type="date" class="form-control" id="check-out-date">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="number-of-guests" class="form-label">Number of Guests</label>
+                                <input type="number" class="form-control" id="number-of-guests" min="1" placeholder="Number of guests">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="room-type" class="form-label">Room Type</label>
+                                <select class="form-select" id="room-type">
+                                    <option selected>Any</option>
+                                    <option>Single Room</option>
+                                    <option>Double Room</option>
+                                    <option>Suite</option>
+                                </select>
+                            </div>
+                            <div class="col-12 text-center mt-4">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section id="destinations" class="mb-5">
+      <h2 class="text-center text-primary mb-4">Favorite Destinations</h2>
+      <div class="row">
+
+         <!-- Favorite Destination 1 -->
+
+
+<div class="col-md-4 mb-4">
+
+  <div class="card" >
+  <img src="./images/paris.png" class="card-img-top" alt="Destination Paris">
+  <div class="card-body">
+    <h5 class="card-title">Paris</h5>
+    <p class="card-text">The City of Lights awaits you with its stunning landmarks and rich history.</p>
+    <a href="search.html" class="btn btn-primary">Explore</a>
+  </div>
+</div>
+
+
+</div>
+
+   <!-- Favorite Destination 2 -->
+
+
+<div class="col-md-4 mb-4">
+
+  <div class="card" >
+  <img src="./images/newyork.png" class="card-img-top" alt="Destination Newyork">
+  <div class="card-body">
+    <h5 class="card-title">New York</h5>
+    <p class="card-text">Experience the hustle and bustle of the Big Apple, from Broadway to Central Park.</p>
+    <a href="search.html" class="btn btn-primary">Explore</a>
+  </div>
+</div>
+
+
+</div>
+
+   <!-- Favorite Destination 3 -->
+
+
+<div class="col-md-4 mb-4">
+
+  <div class="card" >
+  <img src="./images/tokyo.png" class="card-img-top" alt="Destination Tokyo">
+  <div class="card-body">
+    <h5 class="card-title">Tokyo</h5>
+    <p class="card-text">Immerse yourself in the vibrant culture and cutting-edge technology of Japan's capital.</p>
+    <a href="search.html" class="btn btn-primary">Explore</a>
+  </div>
+</div>
+
+
+</div>
+
+
+      </div>
+    </section>
+
+
+     <section id="properties" class="mb-5">
+      <h2 class="text-center text-primary mb-4">Popular Properties</h2>
+      <div class="row">
+
+         <!-- Favorite Properties 1 -->
+
+
+<div class="col-md-4 mb-4">
+
+  <div class="card" >
+  <img src="./images/grand_plaza.png" class="card-img-top" alt="Destination Paris">
+  <div class="card-body">
+    <h5 class="card-title">Grand Plaza Hotel</h5>
+    <p class="card-text">Luxury and comfort at the heart of the city, perfect for any occasion.</p>
+    <a href="search.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div>
+
+
+</div>
+
+   <!-- Favorite Properties 2 -->
+
+
+<div class="col-md-4 mb-4">
+
+  <div class="card" >
+  <img src="./images/seaside_resort.png" class="card-img-top" alt="Destination Newyork">
+  <div class="card-body">
+    <h5 class="card-title">Seaside Resort</h5>
+    <p class="card-text">Relax by the beach and enjoy top-notch amenities at our seaside getaway.</p>
+    <a href="search.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div>
+
+
+</div>
+
+   <!-- Favorite Properties 3 -->
+
+
+<div class="col-md-4 mb-4">
+
+  <div class="card" >
+  <img src="./images/mountain_lodg.png" class="card-img-top" alt="Destination Tokyo">
+  <div class="card-body">
+    <h5 class="card-title">Mountain Lodge</h5>
+    <p class="card-text">Escape to the mountains for a serene retreat with breathtaking views.</p>
+    <a href="search.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div>
+
+
+</div>
+
+
+      </div>
+    </section>
+
+
+     <section id="deals" class="mb-5">
+            <h2 class="text-center text-primary mb-4">Exclusive Deals</h2>
+            <div class="row">
+                <!-- Deal 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Deal 1">
+                        <div class="card-body">
+                            <h5 class="card-title">50% Off on Paris Stays</h5>
+                            <p class="card-text">Enjoy a fantastic discount on stays in Paris. Limited time offer!</p>
+                            <a href="search.html" class="btn btn-success">Get Deal</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Deal 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Deal 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Free Breakfast in New York</h5>
+                            <p class="card-text">Book now and enjoy complimentary breakfast at select hotels in New York.</p>
+                            <a href="search.html" class="btn btn-success">Get Deal</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Deal 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Deal 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Stay 3 Nights, Pay for 2 in Tokyo</h5>
+                            <p class="card-text">Book a 3-night stay in Tokyo and only pay for 2 nights. Don’t miss out!</p>
+                            <a href="search.html" class="btn btn-success">Get Deal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>About Us</h5>
+            <p>
+              TripZila is a platform where you can find and book the best
+              accommodations worldwide.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+
+                <li><a class="text-white text-decoration-none" href="">About Us</a></li>
+                <li><a class="text-white text-decoration-none" href="">Contact Us</a></li>
+                <li><a class="text-white text-decoration-none" href="">Privacy</a></li>
+                <li><a class="text-white text-decoration-none" href="">Terms</a></li>
+            </ul>
+            
+          </div>
+
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+              <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com" target="_blank" class="text-white text-decoration-none">
+                                <i class="fab fa-facebook fa-lg"></i> Facebook
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank" class="text-white text-decoration-none">
+                                <i class="fab fa-twitter fa-lg"></i> Twitter
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com" target="_blank" class="text-white text-decoration-none">
+                                <i class="fab fa-instagram fa-lg"></i> Instagram
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com" target="_blank" class="text-white text-decoration-none">
+                                <i class="fab fa-linkedin fa-lg"></i> LinkedIn
+                            </a>
+                        </li>
+                    </ul>       </div>
+        </div>
+
+
+          <div class="text-center mt-4">
+                <p>&copy; 2024 TripZila. All rights reserved.</p>
+            </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
