@@ -18,6 +18,7 @@
 [Quick Start](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start)
 [carousel](https://getbootstrap.com/docs/5.3/components/carousel/)
 [Examples](https://github.com/twbs/examples/)
+[Bootstrap 5 Essential Training](https://www.linkedin.com/learning/bootstrap-5-essential-training/reboot?autoSkip=true&resume=false&u=76276940)
 
 ### Stock Music
 [Link](https://freetouse.com/music/search/coding)
