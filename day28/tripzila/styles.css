@@ -1,0 +1,136 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EAF6FF;
+    color: #2A2A72;
+}
+
+header, footer {
+    background-color: #232528;
+    color: white;
+    padding: 10px 0;
+}
+header {
+    background-color: #2A2A72;
+}
+footer {
+    background-color: #232528;
+    color: #EAF6FF;
+}
+
+footer h5 {
+    color: #FFA400;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #EAF6FF;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #009FFD;
+}
+
+footer .list-inline-item {
+    margin-right: 15px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #009FFD;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #989da1; /* Light blue text color for links */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #009FFD; /* Dark blue background on hover */
+    color: #232528;
+}
+.navbar-brand {
+    color: #FFA400; /* Orange color for brand name */
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #e66414; /* Light blue on hover */
+}
+.navbar-toggler {
+    border-color: #FFA400; /* Orange border for the hamburger icon */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFA400' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Orange hamburger icon */
+}
+
+
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #009FFD;
+    border-bottom: 2px solid #FFA400;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+button, input[type="submit"], .btn {
+    background-color: #FFA400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover, .btn:hover {
+    background-color: #009FFD;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #009FFD;
+    border-radius: 5px;
+}
+
+input[type="date"], input[type="number"] {
+    max-width: 200px;
+}
